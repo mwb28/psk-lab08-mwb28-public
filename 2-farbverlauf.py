@@ -30,6 +30,6 @@ def zeichne_blaetter(anzahl_blaetter: int, radius: int)->list[Grafik]:
 def kombinere_blaetter(blaetter : list[Grafik])-> Grafik:
     return reduziere(blaetter,leere_grafik(),lambda x , y: kombiniere(x,y))
 
-zeige_grafik(kombinere_blaetter(zeichne_blaetter(120,30)))
+zeige_grafik(kombinere_blaetter(zeichne_blaetter(45,30)))
 
 
