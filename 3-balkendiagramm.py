@@ -26,7 +26,7 @@ def balken_diagramm(balken_hoehe: float) -> Grafik:
     leser = DictReader(file, delimiter=",")
     
     abstand_vertikal = rechteck(balken_hoehe,balken_hoehe/3,transparent)
-    abstand_balken = rechteck(balken_hoehe,balken_hoehe/9,transparent)
+    abstand_balken = rechteck(balken_hoehe,balken_hoehe/8,transparent)
     label_spalte = leere_grafik()
     balken_spalte = leere_grafik()
     farbe = magenta
